@@ -14,8 +14,8 @@ Welcome to the Modern Expense Tracker, an innovative web application designed to
 
 ## Prototype
 
-<img src="https://github.com/darshchaurasia/MonthlyExpenseTrackerPRO/assets/43368969/5ff7412a-cbe0-435b-9f4a-1d74a275a799" height ="480px">
-<img src="https://github.com/darshchaurasia/MonthlyExpenseTrackerPRO/assets/43368969/439d0a13-b194-40ee-81db-54d310a4cd3b" height ="480px">
+<img src="https://github.com/darshchaurasia/ExpenseTracker/assets/43368969/5ff7412a-cbe0-435b-9f4a-1d74a275a799" height ="480px">
+<img src="https://github.com/darshchaurasia/ExpenseTracker/assets/43368969/439d0a13-b194-40ee-81db-54d310a4cd3b" height ="480px">
 
 ## Getting Started
 
