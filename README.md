@@ -1,4 +1,4 @@
-# Expense Tracker https://darshchaurasia.github.io/MonthlyExpenseTrackerPRO/
+# Expense Tracker
 
 Welcome to the Modern Expense Tracker, an innovative web application designed to simplify personal finance management. This tool allows users to track and visualize their expenses dynamically, offering insights into spending patterns with ease and precision.
 
@@ -12,10 +12,6 @@ Welcome to the Modern Expense Tracker, an innovative web application designed to
 - **CSV Export**: Generate and download a CSV report of your expenses with just one click.
 - **Responsive Design**: Fully responsive, ensuring a seamless experience on desktops, tablets, and mobile devices.
 
-## Prototype
-
-<img src="https://github.com/darshchaurasia/ExpenseTracker/assets/43368969/5ff7412a-cbe0-435b-9f4a-1d74a275a799" height ="480px">
-<img src="https://github.com/darshchaurasia/ExpenseTracker/assets/43368969/439d0a13-b194-40ee-81db-54d310a4cd3b" height ="480px">
 
 ## Getting Started
 
@@ -46,8 +42,6 @@ Plans for future enhancements include:
 - Real-time financial data integration through banking APIs.
 
 ## Contributions
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 To contribute:
 
