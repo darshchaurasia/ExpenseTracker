@@ -1,0 +1,152 @@
+/* Basic styling reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+}
+
+.container {
+    max-width: 100%;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.6rem; /* responsive font size */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    flex: 1 1 40%; /* Flexibility for mobile */
+    padding: 12px; /* Larger touch targets */
+    font-size: 1rem;
+    margin-top: 10px; /* Space for tapping */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Enhance buttons for easier interaction on mobile */
+button:hover {
+    background-color: #0056b3;
+}
+
+#expense-list div {
+    background: #eee;
+    padding: 10px;
+    margin-top: 8px;
+    border-left: 5px solid #007bff;
+}
+
+.chart-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsive Adjustments */
+@media (max-width: 768px) {
+    input[type="text"],
+    input[type="number"],
+    button {
+        flex: 1 1 100%; /* Make full width on smaller screens */
+    }
+
+    h1 {
+        font-size: 1.4rem; /* Slightly smaller font size on mobile */
+    }
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #ccc;
+}
+
+.dark-mode .container {
+    background: #333;
+    color: #ddd;
+}
+
+.dark-mode input,
+.dark-mode button,
+.dark-mode #expense-list div {
+    background: #555;
+    color: #ddd;
+    border-color: #777;
+}
+
+.dark-mode button:hover {
+    background-color: #333;
+}
+
+.dark-mode .contact-container {
+    background: #333; /* Dark background for the contact container */
+    color: #ddd; /* Light text for readability */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Darker shadow for depth perception */
+}
+
+.dark-mode .contact-container h2,
+.dark-mode .contact-container p {
+    color: #ccc; /* Consistent light text color for headings and paragraphs */
+}
+
+.dark-mode .contact-container a {
+    color: #4ea1d3; /* Brighter link color for better visibility */
+}
+
+.dark-mode .contact-container a:hover {
+    color: #77c1f1; /* Lighter hover color for links */
+}
+
+
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact-container h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.contact-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+}

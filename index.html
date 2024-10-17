@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Including jsPDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <!-- Including Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Monthly Expense Tracker</h1>
+        <button id="toggle-dark-mode">Toggle Dark Mode</button>
+        <form id="expense-form">
+            <input type="text" id="description" placeholder="Enter description" required>
+            <input type="number" id="amount" placeholder="Enter amount" step="0.01" required>
+            <button type="submit">Add Expense</button>
+        </form>
+        <div id="expense-list"></div>
+        <h3>Total Expenses: $<span id="total-expenses">0</span></h3>
+        <div class="chart-container" style="position: relative; height:40vh; width:auto">
+            <canvas id="expenseChart"></canvas>
+        </div>
+        <button id="download-pdf">Download PDF</button>
+        <button id="download-csv">Download CSV</button>
+    </div>
+    <script src="script.js"></script>
+
+    <div class="contact-container">
+        <h2>Contact the Creator</h2>
+        <p>If you have any questions or feedback, please feel free to reach out.</p>
+        <p>Name: Darsh Chaurasia</p>
+        <p>Website: <a href="https://darshchaurasia.com" target="_blank">darshchaurasia.com</a></p>
+        <p>Email: <a href="mailto:darshchaurasia@gmail.com">darshchaurasia@gmail.com</a></p>
+    </div>
+    
+</body>
+</html>
